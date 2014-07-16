@@ -22,6 +22,8 @@ gulp.src('*.js')
 .pipe(gulp.dest('dest'));
 ```
 
+Available type is cjs/commonjs/amd/cmd.
+
 ## LISENCE
 
 Copyright (c) 2014 popomore. Licensed under the MIT license.
