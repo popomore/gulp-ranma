@@ -1,0 +1,33 @@
+{
+  "name": "gulp-ranma",
+  "version": "0.1.0",
+  "description": "Gulp plugin wrapped ranma",
+  "main": "index",
+  "dependencies": {
+    "gulp-util": "~2.2.20",
+    "ranma": "~0.4.2",
+    "through2": "~0.5.1"
+  },
+  "devDependencies": {
+    "coveralls": "2",
+    "istanbul": "0",
+    "mocha": "1",
+    "should": "4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popomore/gulp-ranma"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "stream",
+    "plugin"
+  ],
+  "homepage": "https://github.com/popomore/gulp-ranma",
+  "author": "popomore <sakura9515@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  }
+}
